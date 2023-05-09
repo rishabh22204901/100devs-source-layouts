@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 :root{
     --primary-color: #F5F9FC;
     --secondry-color: #E1E8F1;
@@ -23,13 +26,101 @@ nav{
 .logo{
     color: var(--button-color);
     margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .button{
     margin-right: 15px;
     padding: 12px 30px;
     background-color: var(--button-color);
     color: var(--primary-color);
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
 }
-header{
-    background-color: var(--secondry-color)
+.s11{
+    background-color: var(--primary-color)
+}
+img{
+    margin-left: 225px;
+    margin-top: 50px;
+}
+.h22{
+    color: var(--button-color);
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.tagline{ 
+    color: var(--button-color);
+    margin-left: 100px;
+    margin-bottom: -100px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;      
+}
+#sec11{  
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+#sec22{  
+    float: left;
+    width: 50%;
+}
+.s1{
+    background-color: var(--primary-color);
+    overflow: auto;
+}
+input{
+    padding: 15px;
+    border: none;
+    background-color: rgba(226,234,240,255);
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+}
+.bb{
+    padding: 15px;
+    border: none;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+label{
+    margin-left: 100px;
+}
+#features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#feature-one, #feature-two, #feature-three, #feature-four{
+    width: 250px;
+    margin-top: 50px;
+}
+.blood{
+    font-size: 30px;
+    color: var(--button-color);
+}
+.half-circle{
+    font-size: 30px;
+    color: var(--button-color);
+}
+.net, .circle{
+    font-size: 30px;
+    color: var(--button-color);
+}
+.clr{
+    color: var(--button-color);
+    font-family:  'Poppins', sans-serif;
+}
+p{
+    color: var(--button-color);
+    font-family:  'Poppins', sans-serif;
+}
+a{
+    color: var(--button-color);
+    text-decoration: none;
+    font-weight: bold;
 }
