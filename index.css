@@ -143,6 +143,10 @@ a{
     }
     #feature-one{
         background-color: red;
-        width: 100%;
+        
     }
+    #features{
+        flex-direction: column;
+    }
+
 }
