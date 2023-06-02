@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    border: 2px solid black;
+     
 }
 :root{
     --primary-color: #F5F9FC;
@@ -40,8 +42,8 @@ nav{
     background-color: var(--primary-color)
 }
 img{
-    margin-left: 225px;
     margin-top: 50px;
+    float: right;
 }
 .h22{
     color: var(--button-color);
@@ -123,4 +125,24 @@ a{
     color: var(--button-color);
     text-decoration: none;
     font-weight: bold;
+}
+
+@media (max-width: 478px) {
+    .link{
+        display: none;
+    }
+    input{
+        width: 100px;
+    }
+    #sec11{
+        width: 100%;
+    }
+    #sec22{
+        width: 100%;
+        background-position: center;
+    }
+    #feature-one{
+        background-color: red;
+        width: 100%;
+    }
 }
